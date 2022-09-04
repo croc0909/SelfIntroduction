@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422E61BC28C4786D00D1D6C8 /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E61BB28C4786D00D1D6C8 /* SharpImageView.swift */; };
+		422E61BE28C4805200D1D6C8 /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E61BD28C4805200D1D6C8 /* InterestViewController.swift */; };
+		422E61C028C4938A00D1D6C8 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E61BF28C4938A00D1D6C8 /* InterestCollectionViewCell.swift */; };
 		42792DB528C2ECC700AD5888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42792DB428C2ECC700AD5888 /* AppDelegate.swift */; };
 		42792DB728C2ECC700AD5888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42792DB628C2ECC700AD5888 /* SceneDelegate.swift */; };
 		42792DB928C2ECC700AD5888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42792DB828C2ECC700AD5888 /* ViewController.swift */; };
 		42792DBC28C2ECC700AD5888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42792DBA28C2ECC700AD5888 /* Main.storyboard */; };
 		42792DBE28C2ECC800AD5888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42792DBD28C2ECC800AD5888 /* Assets.xcassets */; };
 		42792DC128C2ECC800AD5888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42792DBF28C2ECC800AD5888 /* LaunchScreen.storyboard */; };
+		42792DCB28C2F30F00AD5888 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42792DCA28C2F30F00AD5888 /* IntroductionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422E61BB28C4786D00D1D6C8 /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+		422E61BD28C4805200D1D6C8 /* InterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
+		422E61BF28C4938A00D1D6C8 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
 		42792DB128C2ECC700AD5888 /* SelfIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42792DB428C2ECC700AD5888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42792DB628C2ECC700AD5888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		42792DBD28C2ECC800AD5888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42792DC028C2ECC800AD5888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42792DC228C2ECC800AD5888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42792DCA28C2F30F00AD5888 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				42792DB628C2ECC700AD5888 /* SceneDelegate.swift */,
 				42792DB828C2ECC700AD5888 /* ViewController.swift */,
 				42792DBA28C2ECC700AD5888 /* Main.storyboard */,
+				422E61BB28C4786D00D1D6C8 /* SharpImageView.swift */,
+				42792DCA28C2F30F00AD5888 /* IntroductionViewController.swift */,
+				422E61BD28C4805200D1D6C8 /* InterestViewController.swift */,
+				422E61BF28C4938A00D1D6C8 /* InterestCollectionViewCell.swift */,
 				42792DBD28C2ECC800AD5888 /* Assets.xcassets */,
 				42792DBF28C2ECC800AD5888 /* LaunchScreen.storyboard */,
 				42792DC228C2ECC800AD5888 /* Info.plist */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422E61BE28C4805200D1D6C8 /* InterestViewController.swift in Sources */,
+				422E61C028C4938A00D1D6C8 /* InterestCollectionViewCell.swift in Sources */,
+				42792DCB28C2F30F00AD5888 /* IntroductionViewController.swift in Sources */,
 				42792DB928C2ECC700AD5888 /* ViewController.swift in Sources */,
+				422E61BC28C4786D00D1D6C8 /* SharpImageView.swift in Sources */,
 				42792DB528C2ECC700AD5888 /* AppDelegate.swift in Sources */,
 				42792DB728C2ECC700AD5888 /* SceneDelegate.swift in Sources */,
 			);
