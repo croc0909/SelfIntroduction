@@ -10,6 +10,10 @@ import UIKit
 class InterestCollectionViewCell: UICollectionViewCell {
     static let reuseIdentifier = "\(InterestCollectionViewCell.self)"
     
-    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var photoPageControl: UIPageControl!
+    @IBOutlet weak var photoScrollView: UIScrollView!
+    @IBOutlet weak var interestTitleLabel: UILabel!
     
 }
